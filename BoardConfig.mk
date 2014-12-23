@@ -38,6 +38,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13271448576
 BOARD_USERDATAEXTRAIMAGE_PARTITION_SIZE := 59914792960
 BOARD_USERDATAEXTRAIMAGE_PARTITION_NAME := 64G
 
+# Custom Kernel Toolchain
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := /home/ry/android/arm-cortex_a15-linux-gnueabihf-linaro_4.9.3-2014.12/bin/arm-gnueabi-
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/oneplus/bacon/rootdir/etc/fstab.bacon
 
